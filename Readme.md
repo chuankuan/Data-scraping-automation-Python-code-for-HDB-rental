@@ -16,6 +16,6 @@
 * time
 
 Note for the Python code:
-- The website will display a maximum of 10 list of rental information in a particular flat number/name at one time. If there are more than 10 items, user need to click the "2" button option to show the next list of table. My code has so far does not cater to this additional list of table for data collection. Hence, for every flat number, there will be a maximum of 10 items in the collectd table.
+* The HDB website comes with calendar for user to select particular month in interst for the data. Over time, this code may not work anymore in selecing the right month in the calendar. The calender selection portion in the code has to be updated over time by choosing the desired Xpath from the website calendar.
 
-* The HDB website comes with calendar for user to select particular month in interst for the data. As time past, this code may not work anymore in selecing the right month in the calendar. The calender selection portion in the code has to be updated over time by choosing the desired Xpath from the website calendar.
+* The code has ability to check if there is page 2 in the website. Meaning a particular block of flat would have more than 10 units being rented out. Code will not check for page 3 and beyond as I do not expect a block with more than 20 "items".
