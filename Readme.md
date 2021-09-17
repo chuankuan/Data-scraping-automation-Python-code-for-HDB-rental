@@ -1,4 +1,5 @@
 ### <font color = 'navy'> Synopsis:</font>
+#### This is revision 1. Update code to check for any page 2 in the HDB website due to more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrpae page 1. 
 #### <font color = 'brown'> This Python code is mainly for my own practice. </font>
 #### <font color = 'brown'> This Python code is used for automate in collecting rental infomation in the HDB (Housing Development Board) website.</font>
 
