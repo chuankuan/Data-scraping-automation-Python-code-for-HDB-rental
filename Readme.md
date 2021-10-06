@@ -1,5 +1,6 @@
 ### <font color = 'navy'> Synopsis:</font>
-#### This is revision 1. Update code to check for any page 2 with more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrape page 1. 
+#### Update code to check for any page 2 with more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrape page 1. 
+#### Added automating in selecting the earliest active month button in the calendar. Some month button options are inactivated as they are more than a year old from current month.
 #### <font color = 'brown'> This Python code is mainly for my own practice. </font>
 #### <font color = 'brown'> This Python code is used for automate in collecting rental infomation in the HDB (Housing Development Board) website.</font>
 
@@ -16,7 +17,6 @@
 * pandas
 * time
 
-Note for the Python code:
-* The HDB website comes with calendar for user to select particular month in interst for the data. Over time, this code may not work anymore in selecing the right month in the calendar. The calender selection portion in the code has to be updated over time by choosing the desired Xpath from the website calendar.
+Note on the Python code:
 
-* The code has ability to check if there is page 2 in the website. Meaning a particular block of flat would have more than 10 units being rented out. Code will not check for page 3 and beyond as I do not expect a block with more than 20 "items".
+* The code has ability to check if there is page 2 in the website. Meaning a particular block of flat would have more than 10 units being rented out. Code does not check for page 3 and beyond as I do not expect a block with more than 20 "items".
