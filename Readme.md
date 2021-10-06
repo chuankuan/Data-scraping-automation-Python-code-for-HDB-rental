@@ -1,4 +1,4 @@
-### Synopsis:
+### **Synopsis:**
 ---
 #### Update code to check for any page 2 with more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrape page 1. 
 #### Added automating in selecting the earliest active month button in the calendar. Some month button options are inactivated as they are more than a year old from current month.
