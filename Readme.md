@@ -1,18 +1,18 @@
 ### <font color = 'navy'> Synopsis:</font>
 #### Update code to check for any page 2 with more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrape page 1. 
 #### Added automating in selecting the earliest active month button in the calendar. Some month button options are inactivated as they are more than a year old from current month.
-#### <font color = 'brown'> This Python code is mainly for my own practice. </font>
-#### <font color = 'brown'> This Python code is used for automate in collecting rental infomation in the HDB (Housing Development Board) website.</font>
+#### This Python code is mainly for my own code practice.
+#### This Python code is used for automate in collecting rental infomation in the HDB (Housing Development Board) website.
 
-#### <font color = 'brown'>Issue: The HDB website for retrieving rental information required user to key in a block number, select street name from drop down list, and select the from and to dates using its month calendar. Website will display a list of record based on the user input.</font>
+#### The HDB website for retrieving rental information required user to key in a block number, select street name from drop down list, and select the from and to dates using its month calendar. Website will display a list of record based on the user input.
 
-#### <font color = 'brown'>When user wish to get the rental information on another block in the same street, user need to click the "New Enquiry" button, website will clear all selected options and redo the same process of selections all over again. </font>
+#### When user wish to get the rental information on another block in the same street, user need to click the "New Enquiry" button, website will clear all selected options and redo the same process of selections all over again.
 
-#### <font color = 'brown'> This Python code will automate the selection process when user wish to get more than one block of flats' rental data, reducing time and do away the repetitive steps.</font>
+#### This Python code will automate the selection process when user wish to get more than one block of flats' rental data, reducing time and do away the repetitive steps.
 
-#### <font color = 'brown'> User just have to key in the list of block numbers/name as a form of Python list, and the correct street name as a string variable, which has to be found on the drop-down list in the website. The code will perform the selection based on the list of flats number/name and street name variable by using for loop to iterate through each flat number. At the end of each for loop, data will be consolidated by appending into a Python list. The final data will be converted to Pandas dataframe and print out on screen in table format. User can save the data into CSV file for future reference. </font>
+#### User just have to key in the list of block numbers/name as a form of Python list, and the correct street name as a string variable, which has to be found on the drop-down list in the website. The code will perform the selection based on the list of flats number/name and street name variable by using for loop to iterate through each flat number. At the end of each for loop, data will be consolidated by appending into a Python list. The final data will be converted to dataframe and displayed on screen.
 
-#### <font color = 'brown'> Python libraries used are:
+#### > Python libraries used are:
 * selenium, with Chrome as webdriver
 * pandas
 * time
