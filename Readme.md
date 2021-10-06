@@ -1,8 +1,10 @@
 ### **Synopsis:**
 ---
+#### This Python code is mainly for my own code practice.
+
 #### Update code to check for any page 2 with more than 10 "items" or units rented out in a block. Scrape data for page 2 after scrape page 1. 
 #### Added automating in selecting the earliest active month button in the calendar. Some month button options are inactivated as they are more than a year old from current month.
-#### This Python code is mainly for my own code practice.
+
 #### This Python code is used for automate in collecting rental infomation in the HDB (Housing Development Board) website.
 
 #### The HDB website for retrieving rental information required user to key in a block number, select street name from drop down list, and select the from and to dates using its month calendar. Website will display a list of record based on the user input.
