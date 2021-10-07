@@ -23,3 +23,4 @@
 Note on the Python code:
 
 * The code has ability to check if there is page 2 in the website. Meaning a particular block of flat would have more than 10 units being rented out. Code does not check for page 3 and beyond as I do not expect a block with more than 20 "items".
+* Alternative website with rental rate information at the [OneMap website](https://www.onemap.gov.sg/main/v2/propertyquery).
